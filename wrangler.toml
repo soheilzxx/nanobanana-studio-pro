@@ -1,0 +1,6 @@
+name = "nanobanana-studio-pro"
+main = "worker.js"
+compatibility_date = "2025-12-01"
+
+[env.production]
+vars = { API_MASTER_KEY = "your-secret-key-here" }
